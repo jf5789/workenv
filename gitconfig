@@ -1,0 +1,15 @@
+[user]
+	name = wellbye
+	email = wellbye@163.com
+[core]
+	quotepath = false
+	excludesfile = /Users/abc/.gitignore
+[alias]
+	st = status -uno
+	stu = status 
+	cm = commit
+	co = checkout
+	br = branch
+
+[push]
+	default = current
