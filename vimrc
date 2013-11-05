@@ -22,9 +22,11 @@ map ' "
 cmap w!! w !sudo dd of=%<cr>
 
 "let g:winManagerWindowLayout='FileExplorer|TagList'
-let g:winManagerWindowLayout='FileExplorer'
+"let g:winManagerWindowLayout='FileExplorer'
+let Tlist_Use_Right_Window = 1
+let Tlist_Show_One_File = 1
 map nrt :NERDTreeToggle<cr> 
-map nrx :NERDTree 
+map tlt :TlistToggle<cr> 
 map <silent> <leader>res :!(cd ~/git-repo/hd-art/Resources/; sh genfilelist.sh)<cr>
 map <silent> <leader>si :!~/git-repo/hd-prg/client/start_ios_sim.sh<cr><cr>
 
