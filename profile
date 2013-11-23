@@ -13,3 +13,4 @@ source /opt/local/etc/bash_completion
 source /opt/local/share/git-core/git-prompt.sh
 
 alias ls='ls -alG'
+alias ctags="`brew --prefix`/bin/ctags"
