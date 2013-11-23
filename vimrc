@@ -19,12 +19,20 @@ map <C-l> <C-W>l
 map <C-s> :wa<cr>
 map <Tab> `
 map ' "
-cmap w!! w !sudo dd of=%<cr>
+"cmap w!! w !sudo dd of=%<cr>
 
-"let g:winManagerWindowLayout='FileExplorer|TagList'
-let g:winManagerWindowLayout='FileExplorer'
+let g:NERDTree_title="NERD Tree"
+let g:winManagerWindowLayout='NERDTree|TagList'
+function! NERDTree_Start()
+	exec 'NERDTree'
+endfunction
+function! NERDTree_IsValid()
+	return 1
+endfunction
+"let g:winManagerWindowLayout='FileExplorer'
 map nrt :NERDTreeToggle<cr> 
 map nrx :NERDTree 
+"map wm :WMToggle<cr> 
 map <silent> <leader>res :!(cd ~/git-repo/hd-art/Resources/; sh genfilelist.sh)<cr>
 map <silent> <leader>si :!~/git-repo/hd-prg/client/start_ios_sim.sh<cr><cr>
 
