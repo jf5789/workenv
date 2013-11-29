@@ -27,8 +27,9 @@ let Tlist_Use_Right_Window = 1
 let Tlist_Show_One_File = 1
 map nrt :NERDTreeToggle<cr> 
 map tlt :TlistToggle<cr> 
-map <silent> <leader>res :!(cd ~/git-repo/hd-art/Resources/; sh genfilelist.sh)<cr>
+map <silent> <leader>res :!(cd ~/www/hdclient/; ./genfilelist.py)<cr>
 map <silent> <leader>si :!~/git-repo/hd-prg/client/start_ios_sim.sh<cr><cr>
+map <silent> <leader>sr :!./nginx.sh -s reload<cr><cr>
 
 colorscheme torte
 syntax on    
