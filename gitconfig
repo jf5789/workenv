@@ -10,6 +10,7 @@
 	cm = commit
 	co = checkout
 	br = branch
+	di = diff --no-ext-diff
 
 [push]
 	default = current
