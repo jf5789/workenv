@@ -29,4 +29,4 @@ export PATH=$PATH:~/sdk/adk/tools:~/sdk/adk/platform-tools
 export NDK_ROOT=~/sdk/andk
 export ANDROID_SDK_ROOT=~/sdk/adk
 
-alias ls='ls -alG'
+alias ls='ls -alG --color=auto'
