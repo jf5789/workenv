@@ -12,6 +12,10 @@
 */proj.android/gen/*
 *xcuserdata*
 local.properties
+base/datadef/hd-doc/
+server/logic/env.lua
+server/logic/localtest.lua
+server/udata/
 
 # Packages #
 ############
