@@ -28,4 +28,4 @@ export ANDROID_SDK_ROOT=~/sdk/adk
 export PS1="[\u@\w]"
 export LANG="en_US.UTF-8"
 
-alias ls='ls -alG'
+alias ls='ls -alG --color=auto'
