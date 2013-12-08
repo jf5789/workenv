@@ -19,7 +19,7 @@ elif [ "$OS" == "Linux" ]
 then
 echo "set for linux"
 
-alias api="apt-get install"
+alias api="sudo apt-get install"
 alias aps="apt-cache search"
 alias sudo='sudo '
 
