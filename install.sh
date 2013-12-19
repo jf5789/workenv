@@ -6,7 +6,7 @@
 
 ########## Variables
 
-dir=~/git-repo/dotfiles                    # dotfiles directory
+dir="$( cd "$( dirname "$0" )" && pwd )"
 olddir=~/dotfiles_old             # old dotfiles backup directory
 files="profile inputrc vimrc vim tmux.conf gitconfig gitignore"    # list of files/folders to symlink in homedir
 
