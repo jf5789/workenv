@@ -29,3 +29,6 @@ for file in $files; do
 	echo "Creating symlink to $file in home directory."
 	ln -s $dir/$file ~/.$file
 done
+
+mv ~/.ssh/config  ~/dotfiles_old/sshconfig
+ln -s $dir/sshconfig ~/.ssh/config
