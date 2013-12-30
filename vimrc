@@ -27,7 +27,7 @@ let Tlist_Use_Right_Window = 1
 let Tlist_Show_One_File = 1
 map nrt :NERDTreeToggle<cr> 
 map tlt :TlistToggle<cr> 
-map <silent> <leader>res :!(cd ~/www/hdclient/; ./genfilelist.py)<cr>
+map <silent> <leader>res :!(cd ../resource_server; ./genfilelist.py)<cr>
 map <silent> <leader>si :wa<cr> :!~/git-repo/hd-prg/client/start_ios_sim.sh<cr><cr>
 map <silent> <leader>sa :wa<cr> :!~/git-repo/hd-prg/client/start_android_sim.sh<cr>
 map <silent> <leader>sb :wa<cr> :!~/git-repo/hd-prg/client/start_android_sim.sh all<cr>
