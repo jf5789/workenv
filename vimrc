@@ -19,7 +19,7 @@ map <C-l> <C-W>l
 map <C-s> :wa<cr>
 map <Tab> `
 map ' "
-cmap w!! w !sudo dd of=%<cr>
+"cmap w!! w !sudo dd of=%<cr>
 
 "let g:winManagerWindowLayout='FileExplorer|TagList'
 "let g:winManagerWindowLayout='FileExplorer'
@@ -31,7 +31,7 @@ map <silent> <leader>res :!(cd ~/www/hdclient/; ./genfilelist.py)<cr>
 map <silent> <leader>si :wa<cr> :!~/git-repo/hd-prg/client/start_ios_sim.sh<cr><cr>
 map <silent> <leader>sa :wa<cr> :!~/git-repo/hd-prg/client/start_android_sim.sh<cr>
 map <silent> <leader>sb :wa<cr> :!~/git-repo/hd-prg/client/start_android_sim.sh all<cr>
-map <silent> <leader>sr :wa<cr> :!./nginx.sh -s reload<cr><cr>
+map <silent> <leader>sr :wa<cr> :!./nginx.sh<cr><cr>
 
 colorscheme torte
 syntax on    

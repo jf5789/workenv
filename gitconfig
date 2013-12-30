@@ -4,6 +4,7 @@
 [core]
 	quotepath = false
 	excludesfile = /Users/abc/.gitignore
+	editor = vim
 [alias]
 	st = status -uno
 	stu = status 
