@@ -37,7 +37,8 @@ echo "unknow OS"
 fi
 
 #############################################
-export PATH=$PATH:~/sdk/adk/tools:~/sdk/adk/platform-tools
+export DYLD_LIBRARY_PATH=~/sdk/libimobiledevice-macosx:$DYLD_LIBRARY_PATH
+export PATH=$PATH:~/sdk/adk/tools:~/sdk/adk/platform-tools:~/sdk/libimobiledevice-macosx
 export NDK_ROOT=~/sdk/andk
 export ANDROID_SDK_ROOT=~/sdk/adk
 export PS1="[\u@\w]"
