@@ -35,11 +35,10 @@ map <silent> <leader>sr :wa<cr> :!./nginx.sh<cr><cr>
 
 colorscheme torte
 syntax on    
-"winpos 80 80
 set autoread
 set number  
 set cursorline
-set shiftwidth=4 
+set shiftwidth=5 
 set softtabstop=4 
 set tabstop=4    
 set nobackup    
@@ -54,5 +53,5 @@ function! Search_Word()
 	let w =	expand("<cword>")
 	let r =	substitute(w, '^ \(.\{-}\) $', '\1', '')
 "	execute "echo 'a".r."b'"
-	execute "vimgrep /".r."/gj **/*.lua"
+	execute "vimgrep /".r."/gj **/*.lua **/*.c **/*.cpp **/*.h"
 endfunction
