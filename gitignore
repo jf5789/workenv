@@ -8,13 +8,17 @@
 *.o
 *.so
 *.suo
+*.pkl
+*.orig
 */proj.android/bin/*
 */proj.android/gen/*
 *xcuserdata*
+*.xccheckout
+*.metadata/
 local.properties
 base/datadef/hd-doc/
-server/logic/env.lua
-server/logic/localtest.lua
+*/logic/env.lua
+**/localtest*
 server/udata/
 
 # Packages #
