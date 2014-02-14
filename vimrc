@@ -38,9 +38,12 @@ syntax on
 set autoread
 set number  
 set cursorline
-set shiftwidth=5 
-set softtabstop=4 
-set tabstop=4    
+set shiftwidth=4
+set tabstop=4
+set expandtab
+set autoindent 
+set smartindent
+set cindent 
 set nobackup    
 set hlsearch
 set noswapfile
