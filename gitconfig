@@ -1,6 +1,6 @@
 [user]
-	name = wellbye
-	email = wellbye@163.com
+	name = jf
+	email = jf5789@gmail.com
 [core]
 	quotepath = false
 	excludesfile = /Users/abc/.gitignore
@@ -24,3 +24,6 @@
 	trustExitCode = false
 [diff]
 	external = extDiff
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
